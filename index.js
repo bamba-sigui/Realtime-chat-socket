@@ -2,7 +2,7 @@ import { Server } from "socket.io";
 
 const io = new Server({
   cors: {
-    origin: "http://192.168.1.114:5173",
+    origin: "https://realchatserver.netlify.app",
   },
 });
 
